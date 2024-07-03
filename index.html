@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <style>
+
+
+    body{background-color:hsl(47,88%,63%); 
+    font-family: "Figtree", sans-serif;
+  font-size: 16px;
+
+
+  }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    #main-box{
+      box-sizing: border-box;
+      width: 400px;
+      border: 1px solid;
+      padding: 25px;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 15px;
+      box-shadow: 5px 5px ;
+      /* margin-left: auto;
+      margin-right: auto;
+      */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+ }
+#button{ font-weight: 800;
+  border: none;
+  background-color: hsl(47,88%,63%);
+  border-radius: 3px;
+ padding: 7px;
+cursor: pointer;
+}
+
+
+.Dec{ font-weight: 500;
+cursor: pointer;}
+
+.Dec:hover{ color: hsl(47,88%,63%);}
+#svg{ width: 100%;
+
+border-radius: 10px;}
+
+#content{color: hsl(0, 0%, 50%);}
+#content:hover{ color: black;
+cursor: pointer;}
+
+
+
+.image-container{ position: relative;}
+.image-name{ position: absolute;
+left: 80px;
+bottom: 10px;
+font-weight: 800;
+cursor: pointer;
+}
+.image-name:hover{color:hsl(47,88%,63%);}
+h1:hover{color: hsl(47,88%,63%);
+  cursor: pointer;
+}
+
+
+
+  </style>
+</head>
+<body>
+<div id="main-box">
+
+   <img id="svg" src="./assets/images/illustration-article.svg" alt="svg"> 
+   <br>
+   <br>
+  <input id="button" type="button" value="Learning"><br>
+
+  <p class="Dec">Published 21 Dec 2023</p>
+
+  <h1>HTML & CSS foundations</h1>
+
+  <p id="content">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+
+  <div class="image-container">
+    <img src="./assets/images/image-avatar.webp" alt="svg"> 
+  
+   <p class="image-name"> Greg Hooper </p>
+
+  </div>
+<br>
+<br>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Jessica Bassaw </a>.
+    </div>
+      
+
+
+</div>
+
+
+  
+</body>
+</html>
+
